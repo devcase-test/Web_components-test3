@@ -1,0 +1,14 @@
+{
+  "name": "<%= tagName %>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "lit": "^3.1.4"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6"
+  }
+}

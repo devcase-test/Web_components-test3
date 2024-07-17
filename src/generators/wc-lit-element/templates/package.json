@@ -1,0 +1,18 @@
+{
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "web-dev-server"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./<%= tagName %>.js": "./<%= tagName %>.js"
+  },
+  "dependencies": {
+    "lit": "^3.1.4"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6"
+  }
+}
